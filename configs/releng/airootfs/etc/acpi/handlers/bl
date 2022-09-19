@@ -1,0 +1,27 @@
+#!/bin/sh
+bl_dev=/sys/class/backlight/amdgpu_bl0
+brightness_file=$bl_dev/brightness
+brightness=$(< $brightness_file)
+step=20
+new_brightness=$brightness
+
+MIN=0
+MAX=255
+
+case $1 in
+  -)	new_brightness=$(($brightness - $step));;
+  +)	new_brightness=$(($brightness + $step));;
+esac
+
+if [ $new_brightness -gt $MAX ]
+then
+	new_brightness=$MAX
+fi
+
+if [ $new_brightness -lt $MIN ]
+then
+	new_brightness=$MIN
+fi
+
+logger "new_brightness $new_brightness"
+echo $new_brightness > $brightness_file

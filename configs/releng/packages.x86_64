@@ -122,3 +122,96 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+
+# Networking and System
+acpi
+acpid
+acpilight
+archiso
+bluez
+bluez-utils
+networkmanager
+
+# Drivers
+#xf86-video-qxl
+#xf86-video-intel
+#xf86-video-amdgpu
+#mesa
+
+# Sound
+pulseaudio
+pulseaudio-alsa
+alsa-utils
+pamixer
+
+# Fonts
+adobe-source-han-sans-cn-fonts
+adobe-source-han-sans-tw-fonts
+adobe-source-han-serif-cn-fonts
+adobe-source-han-serif-tw-fonts
+
+# Fancy
+pfetch
+i3-wm
+i3lock
+i3status
+feh
+libinput
+libinput-gestures
+xdotool
+ly
+wmctrl
+
+# Lxde
+gpicview
+lxappearance
+lxappearance-obconf
+lxde-common
+lxde-icon-theme
+lxdm
+lxhotkey
+lxinput
+lxlauncher
+lxmusic
+lxpanel
+lxrandr
+lxsession
+lxtask
+lxterminal
+openbox
+pcmanfm
+xorg
+#xorg-server
+
+# QoL
+#bash-it-git
+#bash-completion
+fzf
+oh-my-zsh-git
+
+# App
+chromium
+code
+discord
+docker
+firefox
+gcc
+git
+helm
+kubectl
+kubectx
+minikube
+python-pip
+qmk
+spotify
+steam
+sublime-text-4
+terraform
+unzip
+which
+xfce4-screenshooter
+xss-lock
+yay
+base-devel
+zip
+zoom

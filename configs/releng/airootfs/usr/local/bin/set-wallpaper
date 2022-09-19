@@ -1,0 +1,3 @@
+PICTURE_DIR=~/Pictures/desktop-pictures
+PY_DIR=/usr/local/bin/set-wallpaper.d
+exec $PY_DIR/i3wpd.py $PICTURE_DIR png & 
